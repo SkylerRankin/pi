@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculating Pi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+        <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">-->
+    </head>
+    <body>
+        <div id="background">π</div>
+        <div id="frame">
+        <div id="display">
+            <div id="summation"></div>
+            <div id="digit-wrapper">
+                <div class="digit">0</div>
+                <div class="digit">.</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+                <div class="digit">0</div>
+            </div>
+        </div>
+        
+        <div id="control-panel">
+            <div id="i">
+                   n =<div id="iterations">0</div>
+                </div>
+                <div id="step-info">
+                     Interval-Skip: <input id="step">
+                 </div>
+            <div id="time">
+                Interval-Delay <input id="time-input">
+            </div>
+            <div id="alg">
+                Function:
+            </div>
+            <div id="alternatingOdd" class="function">Alternating Odd Reciprocals</div>
+            <div id="abrahamSharp" class="function">Abraham Sharp</div>
+            <div id="doubleFactorial" class="function">Double Factorial</div>
+            <div id="restart">Refresh</div>
+            </div>
+            
+        </div>
+    </body>
+</html>

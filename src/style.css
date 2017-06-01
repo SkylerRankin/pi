@@ -1,0 +1,89 @@
+/* 
+    Created on : Apr 16, 2017, 11:54:39 AM
+    Author     : Skyler
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 47, 84);
+}
+
+#frame {
+    height: 500px;
+}
+
+#background {
+    z-index: -100;
+    color: rgb(30, 62, 114);
+    overflow: hidden;
+    font-size: 7000%;
+    line-height: 30%;
+    top: 0;
+    position: fixed;
+}
+
+#digit-wrapper {
+    display: inline-block;
+    height: 100%;
+}
+
+.digit {
+    width: .8em;
+    font-family: "Libre Baskerville";
+    display: inline-block;
+    color: white;
+    font-size: 300%;
+    vertical-align: middle;
+}
+
+#display {
+    height: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#control-panel {
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+#restart:hover, #abrahamSharp:hover, #doubleFactorial:hover, #alternatingOdd:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+}
+#i, #step-info, #alg, #restart, #time {
+    color: white;
+    font-family: Roboto;
+    display: inline;
+}
+#iterations, #step, #step-info, #alg, #func, #restart, #time {
+    display: inline;
+    margin-left: 10px;
+}
+
+.function {
+    color: white;
+    font-family: Roboto;
+    display: inline;
+    font-size: 70%;
+}
+
+#step, #time-input {
+    color: black;
+    border: none;
+    width: 45px;
+}
+
+#summation {
+    display: inline;
+    color: white;
+    font-size: 200%;
+    margin-right: 30px;
+}
